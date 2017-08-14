@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 404 http://www.ravcontest.com/upforposts/404page.php
+
+ErrorDocument 401 http://www.ravcontest.com/upforposts/401page.php
+
+ErrorDocument 403 http://www.ravcontest.com/upforposts/403page.php
+
+ErrorDocument 500 http://www.ravcontest.com/upforposts/500page.php

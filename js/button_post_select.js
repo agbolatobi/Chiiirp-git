@@ -1,0 +1,43 @@
+// JavaScript Document
+$(document).ready(function(){
+$("#text").show();
+$("#link").hide();
+$("#image").hide();
+$("#audio").hide();
+$("#video").hide();
+$("#buttontext").click(function(){
+    $("#text").show();
+$("#link").hide();
+$("#image").hide();
+$("#audio").hide();
+$("#video").hide();
+});
+$("#buttonlink").click(function(){
+   $("#text").hide();
+$("#link").show();
+$("#image").hide();
+$("#audio").hide();
+$("#video").hide(); 
+});
+$("#buttonimage").click(function(){
+ $("#text").hide();
+$("#link").hide();
+$("#image").show();
+$("#audio").hide();
+$("#video").hide();
+});
+$("#buttonaudio").click(function(){
+$("#text").hide();
+$("#link").hide();
+$("#image").hide();
+$("#audio").show();
+$("#video").hide();
+});
+$("#buttonvideo").click(function(){
+$("#text").hide();
+$("#link").hide();
+$("#image").hide();
+$("#audio").hide();
+$("#video").show();
+});
+});

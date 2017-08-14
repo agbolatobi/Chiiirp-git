@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#E7EEF7;
+	
+	}
+div.topbar
+{
+	background-color:#336666;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+li.topbar
+{
+	margin-top:2%;
+	list-style-type:none;
+	font-size:14px !important;
+	font-family:"Rockwell Extra Bold", sans-serif;
+	font-weight:600;
+	
+	
+}
+header.header
+{
+	background-color:#373F47;
+	border-bottom:solid;
+	border-bottom-width:0.25px;
+	border-bottom-color:#878C8E;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:999;
+}
+a.topbar
+{
+padding-top:0 !important; 
+padding-bottom:0 !important;
+margin:0 !important; 
+color:#fff;	
+}
+span.color
+{
+	background-color:#FFF;
+}
+div.lowbar
+{
+	
+}
+ul.menu
+{
+	list-style-type:none;
+	display:block;
+}
+li.menu
+{
+	padding-top:3%;
+	display:inline-block;
+	margin-right:10%;
+	margin-bottom:2%;
+	margin-top:2%;
+	margin-left:6%;
+	font-size:16px;
+}
+a.menu
+{
+	font-family:"Rockwell Extra Bold", sans-serif;
+	font-weight:600;
+	font-size:16px;
+	text-decoration:none;
+	color:#fff;
+	
+}
+div.menu
+{
+margin-bottom:10px;	
+}
+div.lowfooter
+{
+	background-color:#373F47;
+	color:#F2F3F4;
+	font-family:"Myriad Pro", "Myriad Pro Cond";
+}
+div.content
+{
+	padding:3%;
+}
+td.profile
+{
+	vertical-align:top;
+}
+div.profile
+{
+	border:solid;
+	border-width:1px;
+	border-color:#CACBCC;
+	overflow:hidden;
+	width:80px;
+	height:100px;
+}
+section.content
+{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+section.head
+{
+	
+}
+div.space
+{
+	margin-top:150px;
+}
+div.cenlist
+{
+background-color:#1789C9;
+height:100px;
+
+}
+div.post
+{
+	width:100%;
+	padding-bottom:2%;
+	margin-top:2%;
+}
+div.bottomcontent
+{
+	width:100%;
+	border-top:dotted;
+	border-top-width:1px;
+	border-color:#E5E3E3;
+}
+a.bottomcontent
+{
+	font-family:"Myriad Pro", "Myriad Pro Cond";
+	text-decoration:none;
+	color:#334144;
+	
+	
+}
+div.menutop
+{
+	background-color:#336666;
+	padding-top:2%;
+	padding-bottom:1.7%;
+	border:solid;
+	border-color:#878C8E;
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 8px; 
+  border-radius:8px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 8px;
+	
+}
+div.menu
+{
+	background-color:#3C6170;
+	width:70%;
+}
+div.contentcon
+{
+	border:solid;
+	border-width:0.5px;
+	border-color:#CACBCC;
+	border-radius:5px;
+	background-color:#FFF;
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 5px; 
+
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 5px; 
+  padding-top:3%;
+  min-height:460px;
+}
+.login
+{
+	background-color:#377289 !important;
+	color:#FFF !important;
+	border-color:#377289 !important;
+}
+.login-header
+{
+	border-bottom-color:#FFF !important;
+}
+.login-bottom
+{
+	padding-bottom:10%;
+}
+.title
+{
+	font-family:"Rockwell Extra Bold", sans-serif;
+	color:#282324;
+}
+.mini-profile
+{
+	font-family:"Myriad Pro", "Myriad Pro Cond";
+	color:#282828;
+}
+a.postbutton
+{
+	text-decoration:none;
+	font-family:"Myriad Pro", "Myriad Pro Cond";
+	color:#FFF;
+}
+div.round
+{
+	border-radius:50%;
+	overflow:hidden;
+	width:140px;
+	height:140px;
+	border:solid;
+	border-color:#CACBCC;
+	border-width:1px;
+}
+.user_profile
+{
+	font-family:"Comic Sans MS", sans-serif;
+	color:#222E35;
+}
+li.notifications
+{
+	width:400px;
+	background-color:#fff;
+}
+div.accordpost
+{
+	background-color:#1A2D49 !important;
+	color:#fff !important;
+}
+a.accordpost
+{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+p.time
+{
+ font-family:"Myriad Pro", "Myriad Pro Cond";
+ color:#AFAFAF;
+ 	
+}
